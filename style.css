@@ -1,0 +1,91 @@
+body{
+  background-image: url("bitcoinDollar3.jpg");
+  margin: 0;
+}
+
+
+#search-bar{
+    position: relative;
+    width: 250px;
+    margin-left: 50% ;
+}
+
+.card{ /* Bitcoin's card*/
+    background-color: aliceblue;
+    background-image: url("bitcoinDollar5.jpg");
+    color: #e7e7e7;
+    font-size: large bold;
+}
+
+#divTag :hover {
+  background-color: rgb(48, 139, 120, 0.5);
+  color: rgb(0, 255, 255);    
+}
+
+
+#divTag{
+  width: 70%;
+  border-radius: 10%;
+  margin-left: 20%;
+  margin-right:auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+
+.navbar navbar-expand-lg navbar-light bg-light{ 
+position: fixed;
+height: 50px;
+margin-top: 5%;
+margin-bottom: 50%;
+line-height: 40px;
+border: 1px transparent;
+border-radius: 0px;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light-default {
+color: #f8f8f8;
+border-color: #e7e7e7;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light-default {
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+
+  /*PARALLAX*/
+  .parallax {
+    /* The image used */
+    background-image: url("bitcoinDollar4.jpg");
+    width: auto;
+    height: 200px;
+
+    /* Set a specific height */
+    min-height: 750px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  /*Go UP*/
+    #goUp{
+    margin-left: 50%;
+    font-size: x-large;
+    }
+  
+/*About*/
+    #about-page{
+      align-items: center;
+      justify-content: center;
+      margin-left: 40%;
+      background-color:white;
+      color: blue;
+      font: x-large;
+    }
+
